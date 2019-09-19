@@ -76,6 +76,10 @@ public class PropertiesHandler {
             this.lastReadFile = null;
             InputStream inputStream = getInputStream(filename);
             // if the file was loaded
+            // if the file was loaded
+            
+            
+
             if (inputStream != null) {
                 Properties propertiesFile = new Properties();
                 try {

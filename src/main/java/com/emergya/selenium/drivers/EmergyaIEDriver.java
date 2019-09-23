@@ -15,12 +15,24 @@ public class EmergyaIEDriver extends InternetExplorerDriver implements EmergyaWe
      * Main window handler to perform windows switch later.
      */
     private String mainWindowHandler;
+    
+    
+    // if the file was loaded
+
 
     /**
      * Constructor
      */
     public EmergyaIEDriver() {
         super();
+        mainWindowHandler = EmergyaWebDriverUtil.getCurrentWindowHandler(this);
+    }
+    
+    
+    /**
+     * @return 
+     */
+    public void EmergyaIEDriver1() {
         mainWindowHandler = EmergyaWebDriverUtil.getCurrentWindowHandler(this);
     }
 

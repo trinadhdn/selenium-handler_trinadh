@@ -18,6 +18,8 @@ public class EmergyaFirefoxDriver extends FirefoxDriver implements EmergyaWebDri
      */
     private String mainWindowHandler;
 
+    
+    
     /**
      * Constructor
      */
